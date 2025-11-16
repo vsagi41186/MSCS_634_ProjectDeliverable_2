@@ -34,7 +34,6 @@ This project performs regression analysis on a breast cancer dataset to predict 
 #### Best Model:
 - Based on the **R2** score and other metrics, **Ridge Regression** was chosen as the best-performing model since it showed a slightly better cross-validation performance compared to **Linear Regression**.
 
----
 
 ## Challenges and Next Steps
 
@@ -55,7 +54,6 @@ During the regression analysis, several challenges were encountered, and address
 5. **Outliers**:
    - Outliers in numerical features (e.g., tumor size or survival months) may skew regression results. Future steps could include identifying and handling outliers through methods like Z-score or IQR to ensure model robustness.
 
----
 
 ## Requirements
 
@@ -82,6 +80,5 @@ This analysis demonstrates how to prepare data, perform regression modeling, and
 
 Challenges like feature engineering, hyperparameter tuning, and handling imbalanced data have been identified as future directions to further improve the model.
 
---- 
 
-Feel free to modify the code as needed for further analyses or for different datasets.
+
